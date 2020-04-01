@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CuOOra",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"datetime",
+		"textblock",
+		"user"
+	],
+	"name" : "TextBlock",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TextBlock",
+	"category" : "CuOOra",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"topics",
+		"title"
+	],
+	"name" : "Question",
+	"type" : "normal"
+}
