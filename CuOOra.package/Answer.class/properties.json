@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"question"
-	],
+	"instvars" : [ ],
 	"name" : "Answer",
 	"type" : "normal"
 }

@@ -3,4 +3,5 @@ initialize
 	"initializes datetime"
 
 	initialDate := DateAndTime now.
-	follows := OrderedCollection new.
+	followers := OrderedCollection new.
+	interests := OrderedCollection new

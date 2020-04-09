@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"datetime",
+		"like",
+		"user"
+	],
 	"name" : "Reaction",
 	"type" : "normal"
 }

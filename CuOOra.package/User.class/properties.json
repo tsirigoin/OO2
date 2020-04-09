@@ -9,7 +9,8 @@
 		"username",
 		"password",
 		"initialDate",
-		"follows"
+		"followers",
+		"interests"
 	],
 	"name" : "User",
 	"type" : "normal"

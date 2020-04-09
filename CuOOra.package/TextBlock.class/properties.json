@@ -8,7 +8,8 @@
 	"instvars" : [
 		"datetime",
 		"textblock",
-		"user"
+		"user",
+		"opinions"
 	],
 	"name" : "TextBlock",
 	"type" : "normal"

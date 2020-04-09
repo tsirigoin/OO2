@@ -2,4 +2,5 @@ initialization
 initialize
 	"initializes datetime"
 
-	datetime := DateAndTime now
+	datetime := DateAndTime now.
+	opinions := OrderedCollection new. 
