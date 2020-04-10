@@ -1,9 +1,9 @@
 accessing
 dislike: anUser
 	| aux |
-	(aux := opinions select: [ :opinion | opinion user equals: anUser ])
+	(aux := opinions select: [ :opinion | opinion user = anUser ])
 		isEmpty
 		ifTrue: [ opinions add: (Reaction newUser: anUser Boolean: false) ]
 		ifFalse: [ (aux at: 1) like
-				ifTrue: [ (aux at: 1) like: false.
-					(aux at: 1) datetime: DateAndTime now ] ]
+			ifTrue: [ (aux at: 1) like: false.
+				(aux at: 1) datetime: DateAndTime now ] ]

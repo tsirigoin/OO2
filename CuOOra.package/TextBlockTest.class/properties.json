@@ -6,11 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"textblock",
+		"textblock1",
 		"user1",
 		"user2",
-		"user3",
-		"user4"
+		"textblock2"
 	],
 	"name" : "TextBlockTest",
 	"type" : "normal"
