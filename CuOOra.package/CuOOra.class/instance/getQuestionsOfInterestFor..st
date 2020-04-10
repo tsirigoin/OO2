@@ -1,6 +1,7 @@
-as yet unclassified
+accessing
 getQuestionsOfInterestFor: anUser
-	"rehacer"
+
+
 	^ (questions
 		select: [ :question | question topics includesAnyOf: anUser interests ])
 		addAll:

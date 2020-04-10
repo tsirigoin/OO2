@@ -1,3 +1,3 @@
-as yet unclassified
+modifying
 user: anUser1 Follows: anUser2
-	anUser2 follower: anUser1
+	anUser1 follow: anUser2

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "CuOOra-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textblock",
+		"user1",
+		"user2",
+		"user3",
+		"user4"
+	],
+	"name" : "TextBlockTest",
+	"type" : "normal"
+}
