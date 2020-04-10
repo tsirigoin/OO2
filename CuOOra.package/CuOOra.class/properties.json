@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"users",
 		"questions",
+		"users",
 		"topics"
 	],
 	"name" : "CuOOra",

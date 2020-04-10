@@ -1,0 +1,1 @@
+A CuOOraTest is a test class for testing the behavior of CuOOra

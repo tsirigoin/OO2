@@ -1,3 +1,3 @@
 operation
 questionsBy: anUser
-	^ questions select: [ :question | question user equals: anUser ]
+	^ questions select: [ :question | question user = anUser ]
