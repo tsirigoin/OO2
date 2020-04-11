@@ -58,3 +58,5 @@ setUp
 			Dislike: ((cuoora questions at: 1) answers at: 3);
 		user: (cuoora users at: 3)
 			Dislike: ((cuoora questions at: 1) answers at: 3).
+	(cuoora users at: 1) follow: (cuoora users at: 3).
+	(cuoora users at: 1) addInterest: (cuoora topics at: 1)
