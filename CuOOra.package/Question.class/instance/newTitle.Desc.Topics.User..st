@@ -4,5 +4,5 @@ newTitle: aTitle Desc: aDescription Topics: someTopics User: anUser
 
 	title := aTitle.
 	textblock := aDescription.
-	topics := someTopics.
+	topics addAll: someTopics.
 	user := anUser

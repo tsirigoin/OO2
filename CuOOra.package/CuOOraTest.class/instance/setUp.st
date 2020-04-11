@@ -11,19 +11,19 @@ setUp
 		newTopic: 't3' Desc: 't3';
 		newQuestion: 'question1'
 			Text: 'q1'
-			Topics: (cuoora topics at: 1)
+			Topics: (OrderedCollection with: (cuoora topics at: 1))
 			User: (cuoora users at: 1);
 		newQuestion: 'question2'
 			Text: 'q2'
-			Topics: (cuoora topics at: 2)
+			Topics: (OrderedCollection with: (cuoora topics at: 2))
 			User: (cuoora users at: 1);
 		newQuestion: 'question3'
 			Text: 'q3'
-			Topics: (cuoora topics at: 1)
+			Topics: (OrderedCollection with: (cuoora topics at: 1))
 			User: (cuoora users at: 2);
 		newQuestion: 'question4'
 			Text: 'q4'
-			Topics: (cuoora topics at: 3)
+			Topics: (OrderedCollection with: (cuoora topics at: 3))
 			User: (cuoora users at: 3);
 		newAnswer: (cuoora questions at: 1)
 			User: (cuoora users at: 2)
@@ -37,7 +37,9 @@ setUp
 		newAnswer: (cuoora questions at: 2)
 			User: (cuoora users at: 3)
 			Text: 'answer1';
-			
+		newAnswer: (cuoora questions at: 2)
+			User: (cuoora users at: 3)
+			Text: 'answer2';
 		user: (cuoora users at: 1)
 			Like: ((cuoora questions at: 1) answers at: 1);
 		user: (cuoora users at: 2)
@@ -55,4 +57,4 @@ setUp
 		user: (cuoora users at: 2)
 			Dislike: ((cuoora questions at: 1) answers at: 3);
 		user: (cuoora users at: 3)
-			Dislike: ((cuoora questions at: 1) answers at: 3)
+			Dislike: ((cuoora questions at: 1) answers at: 3).

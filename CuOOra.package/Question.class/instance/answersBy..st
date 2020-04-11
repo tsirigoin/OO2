@@ -1,3 +1,3 @@
 accessing
 answersBy: anUser
-	^ answers select: [ :each | each user = anUser  ]
+	^ answers select: [ :each | each user = anUser ]

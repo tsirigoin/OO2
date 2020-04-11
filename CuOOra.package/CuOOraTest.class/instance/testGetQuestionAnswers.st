@@ -1,5 +1,3 @@
 test
 testGetQuestionAnswers
-
-	self flag: #toImplement.
-	self assert: false
+	self assert: [ cuoora getQuestionAnswers: (cuoora questions at: 1) ]
