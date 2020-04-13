@@ -1,6 +1,9 @@
 operation
 scoreFor: anUser
-	| userQuestions userAnswers |
+	| userQuestions userAnswers result |
 	userQuestions := self questionsBy: anUser.
 	userAnswers := self answersBy: anUser.
-	^ userQuestions size * 20 + (userAnswers size * 50) + (userQuestions sum: [ :question | question netLikes ]) + (userAnswers sum: [ :answer | answer netLikes ])
+	result := userQuestions size * 20 + (userAnswers size * 50)
+		+ (userQuestions sumNumbers: [ :question | question netLikes ])
+		+ (userAnswers sumNumbers: [ :answer | answer netLikes ]).
+	^ result

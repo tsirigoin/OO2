@@ -1,9 +1,7 @@
 accessing
 getQuestionsOfInterestFor: anUser
-
-
-	^ (questions
-		select: [ :question | question topics includesAnyOf: anUser interests ])
-		addAll:
-			(questions
-				select: [ :question | question user includesAnyOf: anUser followList ])
+	| test |
+	test := questions
+		select: [ :question | anUser interests includesAny: question topics ].
+	test add: [ :question | anUser followList includes: question user ].
+	^ test
