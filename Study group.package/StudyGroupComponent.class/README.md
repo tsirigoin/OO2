@@ -1,0 +1,1 @@
+WAAdmin register: StudyGroupComponent asApplicationAt: 'students'

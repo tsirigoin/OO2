@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Casco 3/27/2020 18:49",
+	"super" : "WAComponent",
+	"category" : "Study group-ui",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"group"
+	],
+	"name" : "StudyGroupComponent",
+	"type" : "normal"
+}

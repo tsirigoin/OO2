@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Study group-ui",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"student",
+		"newName",
+		"newAge"
+	],
+	"name" : "StudentEditorComponent",
+	"type" : "normal"
+}
