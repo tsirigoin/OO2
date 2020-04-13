@@ -40,6 +40,7 @@ setUp
 		newAnswer: (cuoora questions at: 2)
 			User: (cuoora users at: 3)
 			Text: 'answer2';
+		newAnswer: (cuoora questions at: 4) User: (cuoora users at: 1) Text: 'answer1';
 		user: (cuoora users at: 1)
 			Like: ((cuoora questions at: 1) answers at: 1);
 		user: (cuoora users at: 2)

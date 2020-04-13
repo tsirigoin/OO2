@@ -6,12 +6,14 @@ setUp
 	textblock1 := Question
 		newTitle: 'IDK'
 		Desc: 'IDC'
-		Topics: [ Topic newName: 'yeet' Desc: 'CK2 my man' ]
+		Topics: (OrderedCollection with: (Topic newName: 'yeet' Desc: 'CK2 my man'))
 		User: user1.
 	user2 := User newUsername: 'Enzo' WithPassword: '4321'.
 	textblock2 := Question
 		newTitle: 'titulo'
 		Desc: 'desc'
-		Topics: [ Topic newName: 'topic' Desc: 'desc2' ]
+		Topics: (OrderedCollection with: (Topic newName: 'topic' Desc: 'desc2'))
 		User: user1.
-	textblock2 like: user1; like: user2
+	textblock2
+		like: user1;
+		like: user2

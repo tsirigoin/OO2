@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "TomasIrigoin 4/9/2020 22:09",
 	"super" : "TextBlock",
-	"category" : "CuOOra-Main",
+	"category" : "CuOOra-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

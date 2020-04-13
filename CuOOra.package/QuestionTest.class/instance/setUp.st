@@ -5,7 +5,8 @@ setUp
 	question := Question
 		newTitle: 'How to GBF?'
 		Desc: 'I literally dont know anything'
-		Topics: [ Topic newName: 'Mobile Games' Desc: 'Anything about mobile games!' ]
+		Topics: (OrderedCollection
+				with: (Topic newName: 'Mobile Games' Desc: 'Anything about mobile games!'))
 		User: [ User newUsername: 'Alphonse Schweinorg' WithPassword: '1234' ].
 	answer := Answer
 		createAnswer: 'Git gud'
