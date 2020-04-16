@@ -1,6 +1,7 @@
 rendering
 renderContentOn: aCanvas
 	aCanvas heading: 'CuOOra'.
+	aCanvas break.
 	aCanvas
 		form: [ aCanvas
 				paragraph: [ aCanvas label: 'Nombre de usuario: '.
@@ -9,5 +10,5 @@ renderContentOn: aCanvas
 				paragraph: [ aCanvas label: 'Contraseña: '.
 					aCanvas passwordInput on: #newPassword of: self ].
 			aCanvas button
-				callback: [ self accept ];
+				callback: [  ];
 				with: 'Ingresar' ]
