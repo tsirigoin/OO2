@@ -7,8 +7,10 @@ renderLogedInOn: aCanvas
 				div: [ aCanvas
 						strong: [ aCanvas anchor
 								callback: [  ];
-								with: 'nombre de usuario' ];
-						with: 'Login' ] ].
+								with: loggedUser username ] ].
+			aCanvas button
+				callback: [  ];
+				with: 'Cerrar Sesión' ].
 	aCanvas horizontalRule.
 	aCanvas heading
 		level: 2;
