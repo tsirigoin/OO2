@@ -7,10 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"cuoora",
-		"newUsername",
-		"newPassword",
-		"user"
+		"loggedUser"
 	],
-	"name" : "CuOOraLoginComponent",
+	"name" : "CuOOraMainComponent",
 	"type" : "normal"
 }

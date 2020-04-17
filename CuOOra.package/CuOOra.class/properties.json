@@ -2,7 +2,9 @@
 	"commentStamp" : "TomasIrigoin 4/9/2020 22:09",
 	"super" : "Object",
 	"category" : "CuOOra-Model",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"cuoora"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
