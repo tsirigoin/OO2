@@ -7,8 +7,8 @@ question: aQuestion Render: aCanvas
 				do: [ :each | 
 					s
 						nextPutAll: each asString;
-						nextPutAll: ',' ] ].
-	aux := aux copyFrom: 1 to: aux size - 1.
+						nextPutAll: ', ' ] ].
+	aux := aux copyFrom: 1 to: aux size - 2.
 	aCanvas
 		big: [ aCanvas emphasis: aQuestion title ];
 		break;
@@ -16,8 +16,11 @@ question: aQuestion Render: aCanvas
 		text: aux;
 		break;
 		text: 'Realizada por';
-		space;
-		strong: aQuestion user username;
+		space.
+	aCanvas anchor
+		callback: [  ];
+		with: aQuestion user username.
+	aCanvas
 		space;
 		text: '|';
 		space;
@@ -31,4 +34,12 @@ question: aQuestion Render: aCanvas
 		space;
 		text: aQuestion dislikes;
 		space;
-		text: 'dislikes'
+		text: 'dislikes';
+		break.
+	aCanvas anchor
+		callback: [ aQuestion like: loggedUser ];
+		with: 'like'.
+	aCanvas text: ' | '.
+	aCanvas anchor
+		callback: [ aQuestion dislike: loggedUser  ];
+		with: 'dislike'
