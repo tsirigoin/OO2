@@ -1,13 +1,13 @@
 as yet unclassified
-headerOn: aCanvas
-aCanvas div
+renderHeaderOn: aCanvas
+	aCanvas div
 		style: 'display:flex; justify-content:space-between; align-items:center';
 		with: [ aCanvas heading: 'CuOOra'.
 			aCanvas
 				div: [ aCanvas
 						strong: [ aCanvas anchor
 								callback: [  ];
-								with: loggedUser username ] ].
+								with: self session user username ] ].
 			aCanvas button
 				callback: [  ];
-				with: 'Cerrar Sesión' ].
+				with: 'Cerrar Sesión' ]

@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
+	"super" : "CuOOraHeaderComponent",
 	"category" : "CuOOra-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cuoora",
 		"newUsername",
-		"newPassword",
-		"user"
+		"newPassword"
 	],
 	"name" : "CuOOraLoginComponent",
 	"type" : "normal"

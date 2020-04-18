@@ -7,7 +7,7 @@ renderContentOn: aCanvas
 				div: [ aCanvas
 						strong: [ aCanvas anchor
 								callback: [  ];
-								with: loggedUser username ] ].
+								with: self session user username ] ].
 			aCanvas button
 				callback: [  ];
 				with: 'Cerrar Sesión' ].

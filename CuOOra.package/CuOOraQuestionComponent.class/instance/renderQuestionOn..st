@@ -9,7 +9,7 @@ renderQuestionOn: aCanvas
 						nextPutAll: each asString;
 						nextPutAll: ', ' ] ].
 	aux := aux copyFrom: 1 to: aux size - 2.
-	aCanvas big: [ aCanvas emphasis: question title ] .
+	aCanvas big: [ aCanvas emphasis: question title ].
 	aCanvas
 		break;
 		text: 'Topicos: ';
@@ -37,9 +37,9 @@ renderQuestionOn: aCanvas
 		text: 'dislikes';
 		break.
 	aCanvas anchor
-		callback: [ question like: loggedUser ];
+		callback: [ question like: self session user ];
 		with: 'like'.
 	aCanvas text: ' | '.
 	aCanvas anchor
-		callback: [ question dislike: loggedUser ];
+		callback: [ question dislike: self session user ];
 		with: 'dislike'

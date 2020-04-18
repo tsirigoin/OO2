@@ -39,9 +39,9 @@ question: aQuestion Render: aCanvas
 		text: 'dislikes';
 		break.
 	aCanvas anchor
-		callback: [ aQuestion like: loggedUser ];
+		callback: [ aQuestion like: self session user ];
 		with: 'like'.
 	aCanvas text: ' | '.
 	aCanvas anchor
-		callback: [ aQuestion dislike: loggedUser ];
+		callback: [ aQuestion dislike: self session user ];
 		with: 'dislike'

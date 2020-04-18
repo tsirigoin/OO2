@@ -6,7 +6,7 @@ answer: anAnswer Render: aCanvas
 		with: [ aCanvas big: [ aCanvas emphasis: anAnswer user username ] ].
 	aCanvas
 		break;
-		paragraph: anAnswer textblock ;
+		paragraph: anAnswer textblock;
 		text: anAnswer likes;
 		space;
 		text: 'likes |';
@@ -16,10 +16,10 @@ answer: anAnswer Render: aCanvas
 		text: 'dislikes';
 		break.
 	aCanvas anchor
-		callback: [ anAnswer like: loggedUser ];
+		callback: [ anAnswer like: self session user ];
 		with: 'like'.
 	aCanvas text: ' | '.
 	aCanvas anchor
-		callback: [ anAnswer dislike: loggedUser ];
+		callback: [ anAnswer dislike: self session user ];
 		with: 'dislike'.
 	aCanvas horizontalRule

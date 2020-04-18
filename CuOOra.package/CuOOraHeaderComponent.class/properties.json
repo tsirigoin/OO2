@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cuoora",
-		"loggedUser"
+		"cuoora"
 	],
 	"name" : "CuOOraHeaderComponent",
 	"type" : "normal"

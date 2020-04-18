@@ -1,6 +1,6 @@
 rendering
 renderLogedInOn: aCanvas
-	self headerOn: aCanvas.
+	self renderHeaderOn: aCanvas.
 	aCanvas horizontalRule.
 	aCanvas div
 		with: [ aCanvas button

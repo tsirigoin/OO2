@@ -2,5 +2,5 @@ private protocol
 selectedQuestion: aQuestion
 	| component |
 	component := CuOOraQuestionComponent new.
-	component question: aQuestion User: loggedUser.
+	component question: aQuestion.
 	self call: component

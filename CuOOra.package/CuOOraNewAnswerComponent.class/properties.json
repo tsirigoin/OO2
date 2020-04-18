@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CuOOraMainComponent",
+	"name" : "CuOOraNewAnswerComponent",
 	"type" : "normal"
 }
