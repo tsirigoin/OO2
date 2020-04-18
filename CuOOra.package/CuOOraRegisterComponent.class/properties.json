@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CuOOraAccessGrantingComponent",
+	"category" : "CuOOra-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name"
+	],
+	"name" : "CuOOraRegisterComponent",
+	"type" : "normal"
+}
