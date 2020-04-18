@@ -1,17 +1,15 @@
-services
-question: aQuestion Render: aCanvas
+rendering
+renderQuestionOn: aCanvas
 	| aux |
 	aux := String
 		streamContents: [ :s | 
-			(aQuestion topics collect: [ :each | each name ])
+			(question topics collect: [ :each | each name ])
 				do: [ :each | 
 					s
 						nextPutAll: each asString;
 						nextPutAll: ', ' ] ].
 	aux := aux copyFrom: 1 to: aux size - 2.
-	aCanvas anchor
-		callback: [ self selectedQuestion: aQuestion ];
-		with: [ aCanvas big: [ aCanvas emphasis: aQuestion title ] ].
+	aCanvas big: [ aCanvas emphasis: question title ] .
 	aCanvas
 		break;
 		text: 'Topicos: ';
@@ -21,27 +19,27 @@ question: aQuestion Render: aCanvas
 		space.
 	aCanvas anchor
 		callback: [  ];
-		with: aQuestion user username.
+		with: question user username.
 	aCanvas
 		space;
 		text: '|';
 		space;
-		text: aQuestion answers size asString;
+		text: question answers size asString;
 		space;
 		text: 'respuestas';
 		break;
-		text: aQuestion likes;
+		text: question likes;
 		space;
 		text: 'likes |';
 		space;
-		text: aQuestion dislikes;
+		text: question dislikes;
 		space;
 		text: 'dislikes';
 		break.
 	aCanvas anchor
-		callback: [ aQuestion like: loggedUser ];
+		callback: [ question like: loggedUser ];
 		with: 'like'.
 	aCanvas text: ' | '.
 	aCanvas anchor
-		callback: [ aQuestion dislike: loggedUser ];
+		callback: [ question dislike: loggedUser ];
 		with: 'dislike'
