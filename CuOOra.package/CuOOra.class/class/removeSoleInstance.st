@@ -1,0 +1,3 @@
+accessing
+removeSoleInstance
+	cuoora := nil

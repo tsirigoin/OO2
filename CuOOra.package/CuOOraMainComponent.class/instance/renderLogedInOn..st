@@ -7,24 +7,17 @@ renderLogedInOn: aCanvas
 				div: [ aCanvas
 						strong: [ aCanvas anchor
 								callback: [  ];
-								with: 'nombre de usuario' ];
-						with: 'Login' ] ].
+								with: loggedUser username ] ].
+			aCanvas button
+				callback: [  ];
+				with: 'Cerrar Sesión' ].
 	aCanvas horizontalRule.
+	aCanvas div
+		with: [ aCanvas button
+				style: 'float: right';
+				callback: [  ];
+				with: 'Añadir pregunta' ].
 	aCanvas heading
 		level: 2;
 		with: 'Últimas Preguntas'.
-	aCanvas orderedList
-		style: 'list-style-type:none';
-		with: [ aCanvas
-				listItem: [ self questionRender: aCanvas.
-					aCanvas horizontalRule ].
-			aCanvas
-				listItem: [ self questionRender: aCanvas.
-					aCanvas horizontalRule ].
-			aCanvas
-				listItem: [ self questionRender: aCanvas.
-					aCanvas horizontalRule ].
-			aCanvas
-				listItem: [ self questionRender: aCanvas.
-					aCanvas horizontalRule ].
-			aCanvas listItem: [ self questionRender: aCanvas ] ]
+	self renderQuestionsOn: aCanvas

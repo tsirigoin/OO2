@@ -2,6 +2,8 @@ accessing
 getQuestionsOfInterestFor: anUser
 	| test |
 	test := questions
-		select: [ :question | anUser interests includesAny: question topics ].
-	test add: [ :question | anUser followList includes: question user ].
+		select: [ :question | anUser interestTopic: question ].
+	test
+		addAll:
+			(questions select: [ :question | anUser interestFollow: question ]).
 	^ test
