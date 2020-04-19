@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderHeaderOnLog: aCanvas
 	aCanvas div
 		style: 'display:flex; justify-content:space-between; align-items:center';

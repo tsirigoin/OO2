@@ -1,3 +1,3 @@
-accessing
+rendering
 renderButtonsOn: aCanvas
 	self subclassResponsibility

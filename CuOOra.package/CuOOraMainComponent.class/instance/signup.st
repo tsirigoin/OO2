@@ -1,4 +1,4 @@
-as yet unclassified
+callbacks
 signup
 	| aux |
 	aux := CuOOraRegisterComponent new.

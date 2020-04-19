@@ -1,4 +1,4 @@
-accessing
+rendering
 renderInputElementsOn: aCanvas
 	aCanvas label: 'Usuario: '.
 	aCanvas paragraph: [ aCanvas textInput on: #newUsername of: self ].

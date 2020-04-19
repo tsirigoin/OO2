@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderHeaderOn: aCanvas
 	aCanvas div
 		style: 'display:flex; justify-content:space-between; align-items:center';
@@ -7,7 +7,7 @@ renderHeaderOn: aCanvas
 				div: [ self session isLoggedIn
 						ifTrue: [ aCanvas
 								strong: [ aCanvas anchor
-										callback: [ self perfil: (self session user)];
+										callback: [ self profile: (self session user)];
 										with: self session user username ].
 									aCanvas space.
 							aCanvas anchor

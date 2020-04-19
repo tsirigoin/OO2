@@ -1,4 +1,4 @@
-private protocol
+callbacks
 selectedQuestion: aQuestion
 	| component |
 	component := CuOOraQuestionComponent new.

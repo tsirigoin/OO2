@@ -1,6 +1,7 @@
-as yet unclassified
-convertirCadenaATopicos: cadenaTopicos 
-" Recibe un string, separa por caracteres que no sean letra, "
+services
+convertString2Topics: cadenaTopicos 
+" Recibe un string, separa por cierto caracter , limpia espacios y usa el resultado para crear nombres de Topics. 
+Desvuelve una Ordered Collection de Topics, con una descripcion por defecto "
 | conjuntoString |
 
 	conjuntoString := Set new.

@@ -1,5 +1,5 @@
-as yet unclassified
-nuevaPregunta
+callbacks
+newQuestion
 	|aux|
 	aux := CuOOraNewQuestionComponent new.
 	self call: aux

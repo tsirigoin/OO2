@@ -1,5 +1,5 @@
 accessing
-ingresar
+login
 	(cuoora userExists: newUsername)
 		ifTrue: [ (cuoora user: newUsername PasswordIsCorrect: newPassword)
 				ifTrue: [lastError:=nil. (self proceedWith: (cuoora user: newUsername))] ].

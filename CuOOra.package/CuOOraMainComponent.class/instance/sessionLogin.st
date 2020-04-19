@@ -1,4 +1,4 @@
-as yet unclassified
+callbacks
 sessionLogin
 	| aux |
 	aux := CuOOraLoginComponent new.

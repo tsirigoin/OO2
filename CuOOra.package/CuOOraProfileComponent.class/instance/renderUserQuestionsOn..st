@@ -1,7 +1,7 @@
 rendering
 renderUserQuestionsOn: aCanvas
 	| listaPreg |
-	listaPreg := cuoora questionsBy: perfil.
+	listaPreg := cuoora questionsBy: profile.
 	aCanvas orderedList
 		style: 'list-style-type:none';
 		with: [ listaPreg isNotEmpty

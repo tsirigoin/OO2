@@ -1,4 +1,4 @@
-as yet unclassified
+callbacks
 registerAndLogin
 	cuoora newUser: newUsername Pass: newPassword.
 	self proceedWith: (cuoora user: newUsername)

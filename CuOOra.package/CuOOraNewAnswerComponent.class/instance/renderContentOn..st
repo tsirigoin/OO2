@@ -9,7 +9,7 @@ renderContentOn: aCanvas
 						rows: 10;
 						columns: 84; on: #newAnswerText of: self ].
 			aCanvas submitButton
-				callback: [ self responder ];
+				callback: [ self reply ];
 				with: 'Responder'.
 			aCanvas space.
 			aCanvas cancelButton

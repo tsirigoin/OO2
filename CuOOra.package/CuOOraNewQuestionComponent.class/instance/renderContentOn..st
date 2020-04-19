@@ -19,7 +19,7 @@ renderContentOn: aCanvas
 			style: 'display:flex; justify-content:space-between; align-items:right; padding: 10px;';
 			with: [aCanvas emphasis: 'Tópicos '. aCanvas textInput size:84; on: #newTopics of: self ].
 			aCanvas submitButton
-			callback: [ self preguntar ];
+			callback: [ self ask ];
 			with: 'Aceptar'.
 			aCanvas space.
 			aCanvas cancelButton

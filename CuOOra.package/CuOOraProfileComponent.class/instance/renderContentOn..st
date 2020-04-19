@@ -3,9 +3,9 @@ renderContentOn: aCanvas
 	self renderHeaderOn: aCanvas.
 	aCanvas heading
 		level: 2;
-		with: 'Preguntas de ' , perfil username.
+		with: 'Preguntas de ' , profile username.
 	aCanvas anchor
-		callback: [ cuoora user: self session user Follows: perfil ];
+		callback: [ cuoora user: self session user Follows: profile ];
 		with: 'follow'.
 	self renderUserQuestionsOn: aCanvas.
 	aCanvas anchor

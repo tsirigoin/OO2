@@ -1,8 +1,8 @@
-as yet unclassified
-preguntar
+callbacks
+ask
 	cuoora
 		newQuestion: newTitle
 		Text: newTextbox
-		Topics: (self convertirCadenaATopicos: newTopics)
+		Topics: (self convertString2Topics: newTopics)
 		User: self session user.
 	self answer

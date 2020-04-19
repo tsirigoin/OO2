@@ -1,8 +1,8 @@
-as yet unclassified
+services
 answer: anAnswer Render: aCanvas
 	aCanvas big: [ aCanvas emphasis: 'Respuesta de ' ].
 	aCanvas anchor
-		callback: [ self perfil: (anAnswer user) ];
+		callback: [ self profile: (anAnswer user) ];
 		with: [ aCanvas big: [ aCanvas emphasis: anAnswer user username ] ].
 	aCanvas
 		break;

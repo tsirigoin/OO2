@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"perfil"
+		"profile"
 	],
-	"name" : "CuOOraPerfilComponent",
+	"name" : "CuOOraProfileComponent",
 	"type" : "normal"
 }

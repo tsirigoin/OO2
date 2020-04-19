@@ -18,7 +18,7 @@ renderQuestionOn: aCanvas
 		text: 'Realizada por';
 		space.
 	aCanvas anchor
-		callback: [ self perfil: (question user) ];
+		callback: [ self profile: (question user) ];
 		with: question user username.
 	aCanvas
 		space;
