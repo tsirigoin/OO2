@@ -2,7 +2,7 @@ as yet unclassified
 answer: anAnswer Render: aCanvas
 	aCanvas big: [ aCanvas emphasis: 'Respuesta de ' ].
 	aCanvas anchor
-		callback: [ self perfilUsuario ];
+		callback: [ self usuario: anAnswer user ];
 		with: [ aCanvas big: [ aCanvas emphasis: anAnswer user username ] ].
 	aCanvas
 		break;

@@ -7,16 +7,16 @@ renderHeaderOn: aCanvas
 				div: [ self session isLoggedIn
 						ifTrue: [ aCanvas
 								strong: [ aCanvas anchor
-										callback: [  ];
+										callback: [ self usuario: self session user ];
 										with: self session user username ].
-									aCanvas space.
+							aCanvas space.
 							aCanvas anchor
 								callback: [  ];
 								with: [ aCanvas button with: 'Cerrar Sesión' ] ]
 						ifFalse: [ aCanvas anchor
 								callback: [ self sessionLogin ];
 								with: [ aCanvas button with: 'Iniciar Sesión' ].
-								aCanvas space.
+							aCanvas space.
 							aCanvas anchor
 								callback: [ self signup ];
 								with: [ aCanvas button with: 'Registrarse' ] ] ] ].
