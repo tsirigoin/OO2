@@ -1,7 +1,6 @@
-as yet unclassified
-example 
-|instance pedro diego juan tOO1 tTest tSmalltalk pregPedro pregDiego listaTopicos|
-instance := self new.
+samples
+loadExampleIn: instance
+|pedro diego juan tOO1 tTest tSmalltalk pregPedro pregDiego listaTopicos|
 
 "Usuarios"
 instance newUser: 'pedro@cuoora.com' Pass: 'pedro@cuoora.com'.
@@ -51,5 +50,3 @@ instance newAnswer: pregPedro
 instance newAnswer: pregDiego 
 		User: pedro 
 		Text: 'Significa que el objeto que recibió el mensaje no encontró ningún método para ejecutar en respuesta.'.
-		
-^instance

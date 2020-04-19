@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "jp 4/19/2020 03:32",
+	"super" : "Object",
+	"category" : "CuOOra-Samples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CuOOraSampleLoader",
+	"type" : "normal"
+}
