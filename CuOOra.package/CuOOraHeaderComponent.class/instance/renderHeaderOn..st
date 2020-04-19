@@ -9,12 +9,14 @@ renderHeaderOn: aCanvas
 								strong: [ aCanvas anchor
 										callback: [  ];
 										with: self session user username ].
+									aCanvas space.
 							aCanvas anchor
 								callback: [  ];
 								with: [ aCanvas button with: 'Cerrar Sesión' ] ]
 						ifFalse: [ aCanvas anchor
 								callback: [ self sessionLogin ];
 								with: [ aCanvas button with: 'Iniciar Sesión' ].
+								aCanvas space.
 							aCanvas anchor
 								callback: [ self signup ];
 								with: [ aCanvas button with: 'Registrarse' ] ] ] ].
