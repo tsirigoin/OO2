@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CuOOraHeaderComponent",
+	"category" : "CuOOra-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newTitle",
+		"newTextbox",
+		"newTopics"
+	],
+	"name" : "CuOOraNewQuestionComponent",
+	"type" : "normal"
+}

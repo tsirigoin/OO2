@@ -1,10 +1,10 @@
 rendering
 renderLogedInOn: aCanvas
 	aCanvas div
-		with: [ aCanvas button
-				style: 'float: right';
+		with: [ aCanvas anchor 
 				callback: [ self nuevaPregunta ];
-				with: 'Añadir pregunta' ].
+				with: [aCanvas button
+				style: 'float: right'; with: 'Añadir pregunta'] ].
 	aCanvas heading
 		level: 2;
 		with: 'Últimas Preguntas'.
