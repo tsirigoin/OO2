@@ -9,6 +9,6 @@ preguntar
 		Topics:
 			(aux
 				collect:
-					[ :each | cuoora topics collect: [ :another | another name = each name ] ])
+					[ :each | cuoora topics collect: [ :another | another name = each ] ])
 		User: self session user.
 	self answer
