@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"perfil"
+	],
 	"name" : "CuOOraUserComponent",
 	"type" : "normal"
 }
