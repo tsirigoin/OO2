@@ -8,4 +8,7 @@ renderContentOn: aCanvas
 	aCanvas anchor
 		callback: [ cuoora user: self session user Follows: perfil ];
 		with: 'follow'.
-	self renderUserQuestionsOn: aCanvas
+	self renderUserQuestionsOn: aCanvas.
+	aCanvas anchor 
+		callback: [ self answer ];
+		with: 'Atras'.

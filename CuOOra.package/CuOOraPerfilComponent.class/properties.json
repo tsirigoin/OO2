@@ -8,6 +8,6 @@
 	"instvars" : [
 		"perfil"
 	],
-	"name" : "CuOOraUserComponent",
+	"name" : "CuOOraPerfilComponent",
 	"type" : "normal"
 }

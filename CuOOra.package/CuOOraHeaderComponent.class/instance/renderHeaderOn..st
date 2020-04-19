@@ -7,7 +7,7 @@ renderHeaderOn: aCanvas
 				div: [ self session isLoggedIn
 						ifTrue: [ aCanvas
 								strong: [ aCanvas anchor
-										callback: [  ];
+										callback: [ self perfil: (self session user)];
 										with: self session user username ].
 									aCanvas space.
 							aCanvas anchor
