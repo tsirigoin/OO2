@@ -23,7 +23,8 @@ renderContentOn: aCanvas
 	aCanvas anchor
 		callback: [ self answer ];
 		with: [ aCanvas button with: 'Cancelar' ].
-		aCanvas space.
+	aCanvas space.
 	aCanvas anchor
-		callback: [ self preguntar ];
+		callback: [
+			self preguntar ];
 		with: [ aCanvas button with: 'Enviar' ]
