@@ -1,4 +1,4 @@
-rendering
+as yet unclassified
 renderHeaderOn: aCanvas
 	aCanvas div
 		style: 'display:flex; justify-content:space-between; align-items:center';
