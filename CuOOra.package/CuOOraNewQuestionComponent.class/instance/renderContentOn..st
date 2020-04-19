@@ -13,7 +13,7 @@ renderContentOn: aCanvas
 			aCanvas paragraph: [ aCanvas textInput on: #newTopics of: self ].
 			aCanvas submitButton
 				callback: [ self preguntar ];
-				with: 'Responder'.
+				with: 'Aceptar'.
 			aCanvas space.
 			aCanvas cancelButton
 				callback: [ self answer ];

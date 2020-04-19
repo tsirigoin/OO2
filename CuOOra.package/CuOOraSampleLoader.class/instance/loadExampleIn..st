@@ -1,7 +1,7 @@
 samples
 loadExampleIn: instance
 |pedro diego juan tOO1 tTest tSmalltalk pregPedro pregDiego listaTopicos|
-
+instance newUser: 'a' Pass: 'a'.
 "Usuarios"
 instance newUser: 'pedro@cuoora.com' Pass: 'pedro@cuoora.com'.
 pedro := instance user: 'pedro@cuoora.com'.
