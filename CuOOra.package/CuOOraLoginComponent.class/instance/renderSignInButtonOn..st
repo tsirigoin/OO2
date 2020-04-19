@@ -1,5 +1,5 @@
 accessing
 renderSignInButtonOn: aCanvas
 	aCanvas submitButton
-		callback: [ self login ];
+		callback: [ self ingresar ];
 		with: 'Ingresar'

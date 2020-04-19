@@ -1,11 +1,9 @@
 rendering
 renderLogedInOn: aCanvas
-	self renderHeaderOn: aCanvas.
-	aCanvas horizontalRule.
 	aCanvas div
 		with: [ aCanvas button
 				style: 'float: right';
-				callback: [  ];
+				callback: [ self nuevaPregunta ];
 				with: 'Añadir pregunta' ].
 	aCanvas heading
 		level: 2;

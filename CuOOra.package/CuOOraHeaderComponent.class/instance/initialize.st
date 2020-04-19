@@ -1,4 +1,3 @@
 initialization
-initialize
-	super initialize.
+initialize 
 	cuoora := CuOOra soleInstance 
