@@ -1,11 +1,11 @@
 rendering
-renderContentOn: aCanvas 
+renderContentOn: aCanvas
 	self renderHeaderOn: aCanvas.
 	aCanvas horizontalRule.
 	aCanvas heading
 		level: 2;
-		with: 'Preguntas de '.
+		with: 'Preguntas de ', perfil username.
 	aCanvas anchor
-		callback: [ ];
+		callback: [ cuoora user: self session user Follows: perfil ];
 		with: 'follow'.
 	self renderUserQuestionsOn: aCanvas

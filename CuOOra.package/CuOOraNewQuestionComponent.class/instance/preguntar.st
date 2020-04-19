@@ -6,9 +6,6 @@ preguntar
 	cuoora
 		newQuestion: newTitle
 		Text: newTextbox
-		Topics:
-			(aux
-				collect:
-					[ :each | cuoora topics collect: [ :another | another name = each ] ])
+		Topics: aux
 		User: self session user.
 	self answer
