@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "jp 4/19/2020 04:36",
+	"commentStamp" : "TomasIrigoin 4/19/2020 12:24",
 	"super" : "WAComponent",
 	"category" : "CuOOra-UI",
 	"classinstvars" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"cuoora"
 	],
-	"name" : "CuOOraHeaderComponent",
+	"name" : "CuOOraMainComponent",
 	"type" : "normal"
 }

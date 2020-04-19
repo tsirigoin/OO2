@@ -1,5 +1,5 @@
 | application |
-application := WAAdmin register: CuOOraHeaderComponent asApplicationAt: 'cuoora'.
+application := WAAdmin register: CuOOraMainComponent asApplicationAt: 'cuoora'.
 application sessionClass: CuOOraSession.
 
 
