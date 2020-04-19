@@ -20,7 +20,7 @@ question: aQuestion Render: aCanvas
 		text: 'Realizada por';
 		space.
 	aCanvas anchor
-		callback: [ self perfil: (aQuestion user) ];
+		callback: [ self perfil: aQuestion user ];
 		with: aQuestion user username.
 	aCanvas
 		space;
@@ -45,4 +45,6 @@ question: aQuestion Render: aCanvas
 	aCanvas anchor
 		callback: [ aQuestion dislike: self session user ];
 		with: 'dislike'.
-	aCanvas break; break.
+	aCanvas
+		break;
+		horizontalRule

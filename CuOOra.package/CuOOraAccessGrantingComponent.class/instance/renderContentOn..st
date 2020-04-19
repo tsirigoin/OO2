@@ -1,6 +1,6 @@
 accessing
 renderContentOn: aCanvas
-	self renderHeaderOn: aCanvas.
+	self renderHeaderOnLog: aCanvas.
 	aCanvas
 		form: [ self renderInputElementsOn: aCanvas.
 			self renderButtonsOn: aCanvas ]
