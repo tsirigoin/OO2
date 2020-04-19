@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"password"
+		"newUsername",
+		"newPassword"
 	],
 	"name" : "CuOOraAccessGrantingComponent",
 	"type" : "normal"

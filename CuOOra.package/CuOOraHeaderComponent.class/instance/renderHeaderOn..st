@@ -12,5 +12,9 @@ renderHeaderOn: aCanvas
 							aCanvas button
 								callback: [  ];
 								with: 'Cerrar Sesión' ]
-						ifFalse: [ aCanvas button callback: [  ]; with: 'Iniciar Sesión' ].
-						aCanvas button callback: [  ]; with: 'Registrarse' ] ]
+						ifFalse: [ aCanvas button
+								callback: [  ];
+								with: 'Iniciar Sesión' ].
+					aCanvas button
+						callback: [  ];
+						with: 'Registrarse' ] ]

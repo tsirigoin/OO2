@@ -1,3 +1,3 @@
 accessing
 newUsername
-	^ newUsername 
+	^ newUsername
