@@ -1,11 +1,8 @@
 as yet unclassified
 preguntar
-	| aux |
-	aux := newTopics splitOn: ','.
-	aux do: [ :each | cuoora newTopic: each Desc: each ].
 	cuoora
 		newQuestion: newTitle
 		Text: newTextbox
-		Topics: aux
+		Topics: (self convertirCadenaATopicos: newTopics)
 		User: self session user.
 	self answer
