@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "CuOOraHeaderComponent",
+	"super" : "CuOOraAccessGrantingComponent",
 	"category" : "CuOOra-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
