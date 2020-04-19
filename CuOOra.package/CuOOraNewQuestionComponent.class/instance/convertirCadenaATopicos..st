@@ -5,7 +5,7 @@ convertirCadenaATopicos: cadenaTopicos
 
 	conjuntoString := Set new.
 	conjuntoString addAll: (cadenaTopicos splitOn: ',').
-	"Divide la cadena por las comas, y y lo agrego al conjunto"
+	"Divide la cadena por las comas, y lo agrego al conjunto"
 	(conjuntoString includes: '')
 		ifTrue: [ conjuntoString remove: '' ].
 	"si ponen dos comas juntas queda un caracter vacío, lo saco"

@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"lastError"
+	],
 	"name" : "CuOOraLoginComponent",
 	"type" : "normal"
 }

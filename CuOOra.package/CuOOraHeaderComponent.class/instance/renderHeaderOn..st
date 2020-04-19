@@ -11,7 +11,7 @@ renderHeaderOn: aCanvas
 										with: self session user username ].
 									aCanvas space.
 							aCanvas anchor
-								callback: [ self session logout ];
+								callback: [ self session logout. self answer  ];
 								with: [ aCanvas button with: 'Cerrar Sesión' ] ]
 						ifFalse: [ aCanvas anchor
 								callback: [ self sessionLogin ];
